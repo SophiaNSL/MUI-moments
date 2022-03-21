@@ -45,7 +45,7 @@ const Rightbar = () => {
     </Typography>
 
     <ImageList 
-      rowHeight={150} 
+      rowHeight={140} 
       className={classes.imageList} cols={2} 
       style={{marginBottom:20}}
     >
