@@ -111,7 +111,7 @@ const Navbar = () => {
                 </Badge>
                 {/* when your image is in the public folder, the path is just "/img/sophia.png" */}
                 <Avatar alt="Sophia" src="/img/sophia.png"/>
-
+                
            </div>
        </Toolbar>
    </AppBar>

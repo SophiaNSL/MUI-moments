@@ -6,6 +6,7 @@ import Leftbar from "./components/Leftbar";
 import Navbar from "./components/Navbar";
 import Share from "./components/Share";
 import Rightbar from "./components/Rightbar";
+import Add from "./components/Add";
 
 
 const useStyles = makeStyles( (theme) => ({
@@ -35,9 +36,8 @@ const App = () => {
        <Grid item sm={3} className={classes.right}>
         <Rightbar />
        </Grid>
-
-
      </Grid>
+     <Add />
    
     </div>
     )
